@@ -1,0 +1,148 @@
+.content{
+    width: 720px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.circle{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 50%;
+    border: 1px dashed #000;
+    text-align: center;
+    line-height: 300px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rect{
+    position: absolute;
+    right: 0;
+    width: 20px;
+    border: 1px solid #000;
+    font-size: 20px;
+    transition: background-color 5s ease-in-out;
+}
+
+.rect:first-child{
+    top: -17px;
+    right: 70px;
+    height: 30px;
+    line-height: 30px;
+    transform: rotate(25deg);
+}
+
+.rect:nth-child(2){
+    height: 40px;
+    line-height: 40px;
+    top: -10px;
+    right: 40px;
+    transform: rotate(38deg);
+}
+
+.rect:nth-child(3){
+    height: 45px;
+    line-height: 45px;
+    top: 7px;
+    right: 13px;
+    transform: rotate(47deg);
+}
+
+.rect:nth-child(4){
+    height: 40px;
+    line-height: 40px;
+    top: 37px;
+    right: -5px;
+    transform: rotate(60deg);
+}
+
+.rect:nth-child(5){
+    height: 45px;
+    line-height: 45px;
+    top: 63px;
+    right: -23px;
+    transform: rotate(69deg);
+}
+
+.rect:nth-child(6){
+    height: 50px;
+    line-height: 50px;
+    top: 92px;
+    right: -34px;
+    transform: rotate(80deg);
+}
+
+.rect:nth-child(7){
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    top: 140px;
+    right: -32px;
+    transform: rotate(92deg);
+}
+
+.top:nth-child(2){
+    transform: rotate(180deg);
+}
+
+
+
+.content:hover .circle{
+    animation: inlaif 20s linear infinite;
+}
+
+.content:hover .rect{
+    animation: icons 3s ease-out 0s infinite normal forwards;
+}
+
+.contact{
+    width: 505px;
+    margin: 0 auto;
+}
+
+/*@keyframes ani {
+    0%, 20% {
+        -webkit-transform: rotate(180deg) translate(0) rotate(-180deg);
+        transform: rotate(180deg) translate(0) rotate(-180deg);
+    }
+    34%, 100% {
+        -webkit-transform: rotate(180deg) translate(208px) rotate(-180deg);
+        transform: rotate(180deg) translate(208px) rotate(-180deg);
+    }
+}*/
+
+@keyframes icons {
+  0%    { transform:  translateY(0) skewX(45deg,45deg); opacity: 0; }
+  20%    { transform:  translateY(-2em) skewX(45deg,45deg); opacity: 0.2; }
+  50%  { transform:  translateY(2em) skewX(45deg,45deg); opacity: 0.5; }
+  100%  { transform:  translateY(0) skewX(45deg,45deg); opacity: 1; }
+}
+
+.content:hover .top div:nth-child(1) { animation-delay: 3s; }
+.content:hover .top div:nth-child(2) { animation-delay: 3.2s; }
+.content:hover .top div:nth-child(3) { animation-delay: 3.4s; }
+.content:hover .top div:nth-child(4) { animation-delay: 3.6s; }
+.content:hover .top div:nth-child(5) { animation-delay: 3.8s; }
+.content:hover .top div:nth-child(6) { animation-delay: 4s; }
+.content:hover .top div:nth-child(7) { animation-delay: 4.2s; }
+
+
+@keyframes inlaif {
+    0%{
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); 	/* IE 9 */
+        -moz-transform:rotate(0deg); 	/* Firefox */
+        -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+        -o-transform:rotate(0deg); 	/* Opera */
+    }
+    100%{
+        transform:rotate(-360deg);
+        -ms-transform:rotate(-360deg); 	/* IE 9 */
+        -moz-transform:rotate(-360deg); 	/* Firefox */
+        -webkit-transform:rotate(-360deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-360deg); 	/* Opera */
+    }
+
+}

@@ -1,0 +1,408 @@
+.content{
+    width: 720px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.circle{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin: 150px auto;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    z-index: 15;
+}
+
+.logo{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    width: 250px;
+    height: 200px;
+    margin: 70px auto 70px 50px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.border{
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background: #000;
+    color: #fff;
+    left: 50%;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+@keyframes height {
+    0%{height: 10px;}
+    50%{height: 50px;top: 1px;}
+    100%{height: 10px;}
+}
+
+@keyframes height1 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 23px;}
+    100%{height: 10px;}
+}
+
+@keyframes height2 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 50px;}
+    100%{height: 10px;}
+}
+
+@keyframes height3 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 80px;}
+    100%{height: 10px;}
+}
+
+@keyframes height4 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 119px;}
+    100%{height: 10px;}
+}
+
+@keyframes height5 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 165px;}
+    100%{height: 10px;}
+}
+
+@keyframes height6 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 205px;}
+    100%{height: 10px;}
+}
+
+@keyframes height7 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 245px;}
+    100%{height: 10px;}
+}
+
+@keyframes height8 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 285px;}
+    100%{height: 10px;}
+}
+
+@keyframes height9 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 325px;}
+    100%{height: 10px;}
+}
+
+@keyframes height10 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 365px;}
+    100%{height: 10px;}
+}
+
+@keyframes height11 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 395px;}
+    100%{height: 10px;}
+}
+
+@keyframes height12 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 420px;}
+    100%{height: 10px;}
+}
+
+@keyframes height13 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 440px;}
+    100%{height: 10px;}
+}
+
+@keyframes height14 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 450px;}
+    100%{height: 10px;}
+}
+
+@keyframes height15 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 450px;}
+    100%{height: 10px;}
+}
+
+@keyframes height16 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 450px;}
+    100%{height: 10px;}
+}
+
+@keyframes height17 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 440px;}
+    100%{height: 10px;}
+}
+
+@keyframes height18 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 420px;}
+    100%{height: 10px;}
+}
+
+@keyframes height19 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 395px;}
+    100%{height: 10px;}
+}
+
+@keyframes height20 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 365px;}
+    100%{height: 10px;}
+}
+
+@keyframes height21 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 325px;}
+    100%{height: 10px;}
+}
+
+@keyframes height22 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 285px;}
+    100%{height: 10px;}
+}
+
+@keyframes height23 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 245px;}
+    100%{height: 10px;}
+}
+
+@keyframes height24 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 205px;}
+    100%{height: 10px;}
+}
+
+@keyframes height25 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 165px;}
+    100%{height: 10px;}
+}
+
+@keyframes height26 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 119px;}
+    100%{height: 10px;}
+}
+
+@keyframes height27 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 80px;}
+    100%{height: 10px;}
+}
+
+@keyframes height28 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 50px;}
+    100%{height: 10px;}
+}
+
+@keyframes height29 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 23px;}
+    100%{height: 10px;}
+}
+
+@keyframes height30 {
+    0%{height: 10px;}
+    50%{height: 50px;top: 1px;}
+    100%{height: 10px;}
+}
+
+@keyframes height31 {
+    0%{height: 10px;}
+    50%{height: 50px;top: -20px;}
+    100%{height: 10px;}
+}
+
+@keyframes height32 {
+    0%{height: 10px;}
+    50%{height: 50px;top: -23px;}
+    100%{height: 10px;}
+}
+
+@keyframes height33 {
+    0%{height: 10px;}
+    50%{height: 50px;top: -15px;}
+    100%{height: 10px;}
+}
+
+@keyframes height34 {
+    0%{height: 10px;}
+    50%{height: 50px;top: -20px;}
+    100%{height: 10px;}
+}
+
+@keyframes height35 {
+    0%{height: 10px;}
+    50%{height: 50px;top: -23px;}
+    100%{height: 10px;}
+}
+
+@keyframes height36 {
+    0%{height: 10px;}
+    50%{height: 50px;top: -30px;}
+    100%{height: 10px;}
+}
+
+.sin0{
+    animation: height35 1.3s 1 ease-out;
+}
+
+.sin1{
+    animation: height36 1.3s 1 ease-out;
+}
+
+.sin2{
+    animation: height 1.3s 1 ease-out;
+}
+
+.sin3{
+    animation: height1 1.3s 1 ease-out;
+}
+
+.sin4{
+    animation: height2 1.3s 1 ease-out;
+}
+
+.sin5{
+    animation: height3 1.3s 1 ease-out;
+}
+
+.sin6{
+    animation: height4 1.3s 1 ease-out;
+}
+
+.sin7{
+    animation: height5 1.3s 1 ease-out;
+}
+
+.sin8{
+    animation: height6 1.3s 1 ease-out;
+}
+
+.sin9{
+    animation: height7 1.3s 1 ease-out;
+}
+
+.sin10{
+    animation: height8 1.3s 1 ease-out;
+}
+
+.sin11{
+    animation: height9 1.3s 1 ease-out;
+}
+
+.sin12{
+    animation: height10 1.3s 1 ease-out;
+}
+
+.sin13{
+    animation: height11 1.3s 1 ease-out;
+}
+
+.sin14{
+    animation: height12 1.3s 1 ease-out;
+}
+
+.sin15{
+    animation: height13 1.3s 1 ease-out;
+}
+
+.sin16{
+    animation: height14 1.3s 1 ease-out;
+}
+
+.sin17{
+    animation: height15 1.3s 1 ease-out;
+}
+
+.sin18{
+    animation: height16 1.3s 1 ease-out;
+}
+
+.sin19{
+    animation: height17 1.3s 1 ease-out;
+}
+
+.sin20{
+    animation: height18 1.3s 1 ease-out;
+}
+
+.sin21{
+    animation: height19 1.3s 1 ease-out;
+}
+
+.sin22{
+    animation: height20 1.3s 1 ease-out;
+}
+
+.sin23{
+    animation: height21 1.3s 1 ease-out;
+}
+
+.sin24{
+    animation: height22 1.3s 1 ease-out;
+}
+
+.sin25{
+    animation: height23 1.3s 1 ease-out;
+}
+
+.sin26{
+    animation: height24 1.3s 1 ease-out;
+}
+
+.sin27{
+    animation: height25 1.3s 1 ease-out;
+}
+
+.sin28{
+    animation: height26 1.3s 1 ease-out;
+}
+
+.sin29{
+    animation: height27 1.3s 1 ease-out;
+}
+
+.sin30{
+    animation: height28 1.3s 1 ease-out;
+}
+
+.sin31{
+    animation: height29 1.3s 1 ease-out;
+}
+
+.sin32{
+    animation: height30 1.3s 1 ease-out;
+}
+
+.sin33{
+    animation: height31 1.3s 1 ease-out;
+}
+
+.sin34{
+    animation: height32 1.3s 1 ease-out;
+}
+
+.sin35{
+    animation: height33 1.3s 1 ease-out;=
+}
+
