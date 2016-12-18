@@ -8,7 +8,7 @@
     position: relative;
     width: 450px;
     height: 450px;
-    margin: 150px auto;
+    margin: 100px auto 50px auto;
     border-radius: 50%;
     border: none;
     text-align: center;
@@ -21,7 +21,7 @@
     left: 80px;
     width: 250px;
     height: 200px;
-    margin: 70px auto 70px 50px;
+    margin: 70px auto 70px 45px;
 }
 
 .logo img{
@@ -39,6 +39,23 @@
     line-height: 50px;
     overflow: hidden;
     transform-origin: 0 225px;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    display: inline-block;
+    border: 1px solid #337ab7;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    padding: 0 15px 0 15px;
+    margin-left: 10px;
+    border-radius: 1em;
 }
 
 .sin0{
